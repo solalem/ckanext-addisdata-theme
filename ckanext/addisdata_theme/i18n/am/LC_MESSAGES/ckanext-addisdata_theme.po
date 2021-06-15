@@ -212,8 +212,8 @@ msgid "E.g. environment"
 msgstr "ምሳሌ፡ አካባቢ ደህንነት"
 
 #: ckanext/addisdata_theme/templates/home/snippets/search.html:9
-msgid "Start searching in DATA.GOV.ET"
-msgstr "DATA.GOV.ETን አስስ"
+msgid "Start searching in ADDIS.DATA.GOV.ET"
+msgstr "ADDIS.DATA.GOV.ETን አስስ"
 
 #: ckanext/addisdata_theme/templates/home/snippets/search.html:11
 msgid "Search in more than 1700 datasets"

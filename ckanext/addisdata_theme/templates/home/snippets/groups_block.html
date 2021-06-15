@@ -3,7 +3,7 @@
 <section class="alternate padding-xs">
     <div class="container">
         <header class="text-center margin-bottom-40">
-            <h1 class="weight-300">DATA.GOV.ET</h1>
+            <h1 class="weight-300">ADDIS.DATA.GOV.ET</h1>
             <h2 class="weight-300 letter-spacing-1 size-13"><span>{% trans %}OPEN DATASETS PORTAL{% endtrans %}</span>
             </h2>
         </header>
@@ -20,10 +20,11 @@
                 <div class="text-center">
                     <a href="{{ h.url_for(controller='group', action='read', id=group.name) }}" data-toggle="tooltip"
                         data-placement="bottom" title="{{ group.display_name | upper }}">
-                        <img src="/assets/images/gov/icons/{{ group.name }}.png"
+                        <!-- <img src="/assets/images/gov/icons/{{ group.name }}.png"
                             onmouseover="this.src='/assets/images/gov/icons/{{ group.name }}-o.png'"
                             onmouseout="this.src='/assets/images/gov/icons/{{ group.name }}.png'" alt="{{ group.display_name | upper }}"
-                            height="50" />
+                            height="50" /> -->
+                        <span class="{{ h.get_group_icon_name }}"></span>
                     </a>
                     <h4>{{ group.display_name.split(' ', 1)[0].replace(",", "") | upper }}</h4>
                 </div>

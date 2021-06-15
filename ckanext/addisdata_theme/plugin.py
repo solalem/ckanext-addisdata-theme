@@ -61,6 +61,10 @@ def group_id():
     id = request.params.get('grp') or request.params.get('groups__0__id')
     return id
 
+
+def get_group_icon_name(): # Accept groupName and return accordingly
+    return 'fa fa-leaf fa-5x'
+
 class addisdataThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.ITemplateHelpers)
@@ -108,7 +112,8 @@ class addisdataThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
             'addisdata_theme_most_popular_groups': most_popular_groups,
             'get_group_select_list': get_group_select_list,
             'groups': groups,
-            'group_id': group_id
+            'group_id': group_id,
+            'get_group_icon_name': get_group_icon_name
         }
 
     def update_config_schema(self, schema):
