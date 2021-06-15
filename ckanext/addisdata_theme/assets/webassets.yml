@@ -1,0 +1,8 @@
+# addisdata_theme-js:
+#   filter: rjsmin
+#   output: ckanext-addisdata_theme/%(version)s-addisdata_theme.js
+#   contents:
+#     - js/addisdata_theme.js
+#   extra:
+#     preload:
+#       - base/main
