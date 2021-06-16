@@ -153,17 +153,17 @@ msgstr ""
 
 #: ckanext/addisdata_theme/templates/header.html:125
 #: ckanext/addisdata_theme/templates/header_old.html:14
-msgid "Programmers"
+msgid "Developers"
 msgstr "ዴቨሎፐሮች"
 
 #: ckanext/addisdata_theme/templates/header.html:126
-msgid "Resources"
-msgstr ""
+msgid "Blog"
+msgstr "ብሎግ"
 
 #: ckanext/addisdata_theme/templates/header_old.html:11
 #: ckanext/addisdata_theme/templates/home/snippets/infobar.html:23
 msgid "Groups"
-msgstr "መደብ"
+msgstr "መደቦች"
 
 #: ckanext/addisdata_theme/templates/page_home.html:6
 msgid "Skip to content"
@@ -194,7 +194,7 @@ msgid ""
 "download and use the information generated and held by the "
 "administrative structures."
 msgstr ""
-"ዜጎች በተለያዩ መስሪያ ቢቶች ውስጥ የሚተዳደሩ መረጃዎችን እንዲያገኙ እና እንዲጠቀሙ የሚያግዝ "
+"ዜጎች በተለያዩ መስሪያ ቤቶች ውስጥ የሚተዳደሩ መረጃዎችን እንዲያገኙ እና እንዲጠቀሙ የሚያግዝ "
 "የመንግስት አስተዳደራዊ እና ድርጅታዊ መረጃዎች በዳታሴት መልኩ ማግኛ ስፍራ "
 
 #: ckanext/addisdata_theme/templates/home/snippets/infobar.html:13
@@ -478,7 +478,7 @@ msgid ""
 msgstr ""
 
 # | msgid "Programmer"
-#~ msgid "Programmers"
+#~ msgid "Developers"
 #~ msgstr "ዴቨሎፐር"
 
 # | msgid "external links"
